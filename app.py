@@ -66,7 +66,7 @@ elif page == "Classificatie":
     input_scaled = scaler.transform(input_data)
 
     predicted_class = clf_model.predict(input_scaled)[0]
-    st.info(f"Voorspelde categorie: **{predicted_class}**"
+    st.info(f"Voorspelde categorie: **{predicted_class}**")
     categories = [c for c in clf_model.classes_ if c in [0, 1, 2, 3]]
 
     # Kansverdeling per categorie tonen
