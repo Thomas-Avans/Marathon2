@@ -1,0 +1,6 @@
+streamlit
+altair==4.2.2
+scikit-learn
+pandas
+numpy
+joblib
